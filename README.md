@@ -24,7 +24,7 @@ This repository provides a PowerShell script to extract specific URLs from the l
 2. **Run the Script**:
    - Open PowerShell.
    - Navigate to the script's directory.
-   - Run the script using `.\Extract-WutheringWaves-LogURL.ps1`.
+   - Run the script using `.\mc.ps1`.
 3. **Follow Prompts**:
    - If the log file is found and contains matching URLs, the script will:
      - Display the extracted URL.
@@ -59,7 +59,7 @@ URL copied to clipboard. Please paste to Wuwa Tracker and click the Import Histo
 ---
 
 ## Notes
-- The script assumes the default game installation path. Update `$gamePath` if the game is installed elsewhere.
+- You must update `$gamePath` if the game is installed elsewhere.
 - Ensure you have opened the Convene History in the game to generate relevant log entries.
 - Modify or extend the URL patterns in the script as needed to match different scenarios.
 
